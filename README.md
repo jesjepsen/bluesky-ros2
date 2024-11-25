@@ -2,7 +2,8 @@
 Forked from: [TUDelft-CNS-ATM/bluesky](https://github.com/TUDelft-CNS-ATM/bluesky)
 
 ## Contribution
-Injecting simulated air traffic data from the BlueSky simulator into a [PX4](https://px4.io/)-based flight controller using [MAVROS](https://index.ros.org/p/mavros/). The air traffic data from the BlueSky simulator is convertet into [ADS-B messages](https://mavlink.io/en/messages/common.html#ADSB_VEHICLE) and published to the ```/mavros/adsb/send``` topic. 
+Injecting simulated air traffic data from the [BlueSky](https://github.com/TUDelft-CNS-ATM/bluesky/wiki) simulator into a [PX4](https://px4.io/) Software-In-The-Loop (SITL) simulation using [MAVROS](https://index.ros.org/p/mavros/). The air traffic data from the BlueSky simulator is converted into [ADS-B messages](https://mavlink.io/en/messages/common.html#ADSB_VEHICLE) and published to the `/mavros/adsb/send` topic to inject the air traffic into the flight controller.
+
 
 BlueSky simulator          |  QGroundControl
 :-------------------------:|:-------------------------:
